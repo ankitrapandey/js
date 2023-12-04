@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // --------------------------test -3rd Question-4------------------------
+        // let x = "ankit"
+        // let y = x.trim()
+        // console.log(y)
+        // ---------------trim start--------
+        // let a ="aman"
+        // let b=a.trimStart()
+        // console.log(b)
+
+        // ------------------------------------trim end--------------------
+        // let c ="suryanshu"
+        // let d =c.trimEnd()
+        // console.log(d)
+
+        // --------------------------------Question-6, difference between while loop and do-while--------
+        //    let i=1;
+        //    while(i<=10){
+        //     document.write(i,"<br>");
+        //     i++;
+        //    }
+        // let i=10;
+        //    do{
+        //     document.write(i,"<br>")
+        //     i--;
+        //    }
+        //    while(i>=1)
+        //    -----------------------------Question-7   fibonaaci series-------------------------
+        // let a = 0;
+        // let b = 1;
+        // document.write(a, " ", b)
+        // let c;
+        // for (let i = 1; i <= 20; i++) {
+        //     c = a + b;
+        //     document.write(c," ");
+        //     a = b;
+        //     b = c;
+        // }
+
+        // ------------------------------------Quesstion-8 Armstrog number------------------
+        // let sum=0;
+        // let number="153"
+        // let temp=number;
+        // while(temp!=0){
+        //     let remainder=temp%10;
+        //     sum+=remainder**number.length;
+        //     temp=parseInt(temp/10);
+
+        // }
+        // if(sum==number){
+        //     document.write("it's armstrong number")
+        // }
+        // else{
+        //     document.write("it's not armstrong number")
+        // }
+
+        // 
+        // ---------------------------Question -9 function armstrog number-------------------------
+        //     function armstrong(a){
+        //    let sum=0;
+        //     let number="153"
+        //     let temp=number;
+        //     while(temp!=0){
+        //         let remainder=temp%10;
+        //         sum+=remainder**number.length;
+        //         temp=parseInt(temp/10);
+
+        //     }
+        //     if(sum==number){
+        //         document.write("it's armstrong number")
+        //     }
+        //     else{
+        //         document.write("it's not armstrong number")
+        //     }
+        // }
+        // armstrong()
+
+        // ----------------------------------------------------Question 10 return statement---------------------------
+        // function add(a,b){
+        //     return a*b;
+        // }
+        //  let x=add(5,6)
+        //  document.write(x)
+
+        // -----------------------------------------Question 11 find second largest number------------------------------------------
+        // function array(x){
+        // for(let i=0;i<x.length;i++){
+        //     let sum=[0];
+        //     for(let j=i+1;j<x.length;j++){
+        //         if(x[i]>x[j]){
+        //             max=x[i];
+        //             x[i]=x[j];
+        //             x[j]=max
+        //         }
+        //     }
+        // }
+        // document.write(x[x.length-2]);
+        // }
+        // array([1,5,3,8,6,10,15,20])
+
+        // ---------------------------------------------Question 12 armstrong between 101to 200-----------------
+        // function armstrong(a){
+        //     for(let i=101;i<=200;i++){
+        //         let sum=0;
+        //         let temp=i;
+        //         remainder=0;
+        //         while(temp!=0){
+        //             let remainder=temp%10;
+        //             sum+=remainder*remainder*remainder;
+        //             temp=parseInt(temp/10);
+        //         }
+        //         if(sum==i){
+        //             document.write(i," ","its armstrong number")
+        //         }
+        //     }
+        // }
+        // armstrong()
+        // ------------------------------Question 13 facorial number--------------------------------------
+
+        // function facorial(a){
+        //     let x=1;
+        // for(let i=1;i<a;i++){
+
+        //     x=x*i;
+        // }
+        // document.write(x)
+        // }
+        // facorial(6)
+
+        // -------------------------------------------Question 14--------------------------------------------
+        // function prime(a) {
+        //     let b = 0;
+        //     for (let i = 1; i <= a; i++) {
+        //         if (a % i == 0) {
+        //             b++;
+        //         }
+
+        //     }
+        //     if(b==2){
+        //         document.write("it's prime number");
+
+        //        }
+        //        else{
+        //         document.write("it's not prime number");
+        //        }
+        // }
+        // prime(12)
+
+        // ----------------------------------------Question 15  print prime number------------------
+        
+        // function prime(a) {
+            
+        //     for (let i = 1; i <= 20; i++) {
+        //         let num = 0;
+        //         for (let j = 2; j <= i-1; j++) {
+        //             if (i % j == 0) {
+        //                 num = num + 1;
+        //             }
+        //         }
+        //         if (num == 0) {
+        //         document.write(i, "<br>")
+        //     }
+
+        //     }
+            
+        // }
+        // prime()
+
+        // ---------------------------------Question 16 sorted or not-------------------------
+        // function sorted(x){
+        //     let num=0;
+        //     for(let i=0;i<x.length;i++){
+        //         if(x[i]>x[i+1]){
+        //             num=num+1;
+        //         }
+                
+                
+        //     }
+        //     if(num==0){
+        //             document.write("it's accending order")
+        //         }
+        //         else{
+        //             document.write("it's not accending order")
+        //         }
+            
+        // }
+        
+        // sorted([1,2,3,4,5,6,7,9,10]);
+
+        // -----------------------------------------------------Question 17 largest array----------------
+        // function array(x){
+        //     for(let i=0;i<x.length;i++){
+        //         let max=[0];
+        //         for(let j=i+1;j<x.length;j++){
+        //             if(x[i]>x[j]){
+        //                 x[i]=max;
+        //                 x[i]=x[j];
+        //                 x[j]=max;
+        //             }
+        //         }
+        //     }
+        //     document.write(x[x.length-1]);
+        // }
+        // array([1,5,3,8,6,10,12,13,15])
+
+        // ---------------------------------Question 18 smallest array--------------------------
+    //     function array(x){
+    //     let max=[0]
+    //     for(let i=0;i<=x.length-1;i++){
+    //         for(let j=i+1;j<=x.length-1;j++){
+    //             if(x[i]<x[j]){
+    //                max= x[i]
+    //                x[i]=x[j]
+    //                x[j]=max
+    //             }
+    //         }
+            
+    //     }
+    //     document.write(x[x.length-1])
+    // }
+    // array([2,4,1,6,8,10,12,14,15])
+
+    // --------------------------------------Question 19 print sum of  all even number---------------
+    function even(a, b) {
+            let sum = 0;
+            for (let i = a; i <= b; i++) {
+                if (i % 2 === 0) {
+                    sum += i
+                }
+            }
+            return sum;
+        }
+let a=1;
+let b=100;
+let sum = even(a,b);
+document.write(sum);
+
+    </script>
+</body>
+
+</html>
