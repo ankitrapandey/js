@@ -109,7 +109,7 @@
         // array([1,5,3,8,6,10,15,20])
 
         // ---------------------------------------------Question 12 armstrong between 101to 200-----------------
-        // function armstrong(a){
+        // function armstrong(){
         //     for(let i=101;i<=200;i++){
         //         let sum=0;
         //         let temp=i;
@@ -126,16 +126,15 @@
         // }
         // armstrong()
         // ------------------------------Question 13 facorial number--------------------------------------
+        function factorial(a) {
+            let x = 1;
+            for (let i = 1; i <= a; i++) {
+                x = x * i
+            }
+            document.write(x)
+        }
+        factorial(5)
 
-        // function facorial(a){
-        //     let x=1;
-        // for(let i=1;i<a;i++){
-
-        //     x=x*i;
-        // }
-        // document.write(x)
-        // }
-        // facorial(6)
 
         // -------------------------------------------Question 14--------------------------------------------
         // function prime(a) {
@@ -157,9 +156,9 @@
         // prime(12)
 
         // ----------------------------------------Question 15  print prime number------------------
-        
+
         // function prime(a) {
-            
+
         //     for (let i = 1; i <= 20; i++) {
         //         let num = 0;
         //         for (let j = 2; j <= i-1; j++) {
@@ -172,7 +171,7 @@
         //     }
 
         //     }
-            
+
         // }
         // prime()
 
@@ -183,8 +182,8 @@
         //         if(x[i]>x[i+1]){
         //             num=num+1;
         //         }
-                
-                
+
+
         //     }
         //     if(num==0){
         //             document.write("it's accending order")
@@ -192,9 +191,9 @@
         //         else{
         //             document.write("it's not accending order")
         //         }
-            
+
         // }
-        
+
         // sorted([1,2,3,4,5,6,7,9,10]);
 
         // -----------------------------------------------------Question 17 largest array----------------
@@ -214,37 +213,33 @@
         // array([1,5,3,8,6,10,12,13,15])
 
         // ---------------------------------Question 18 smallest array--------------------------
-    //     function array(x){
-    //     let max=[0]
-    //     for(let i=0;i<=x.length-1;i++){
-    //         for(let j=i+1;j<=x.length-1;j++){
-    //             if(x[i]<x[j]){
-    //                max= x[i]
-    //                x[i]=x[j]
-    //                x[j]=max
-    //             }
-    //         }
-            
-    //     }
-    //     document.write(x[x.length-1])
-    // }
-    // array([2,4,1,6,8,10,12,14,15])
+        //     function array(x){
+        //     let max=[0]
+        //     for(let i=0;i<=x.length-1;i++){
+        //         for(let j=i+1;j<=x.length-1;j++){
+        //             if(x[i]<x[j]){
+        //                max= x[i]
+        //                x[i]=x[j]
+        //                x[j]=max
+        //             }
+        //         }
 
-    // --------------------------------------Question 19 print sum of  all even number---------------
-    function even(a, b) {
-            let sum = 0;
-            for (let i = a; i <= b; i++) {
-                if (i % 2 === 0) {
-                    sum += i
-                }
-            }
-            return sum;
-        }
-let a=1;
-let b=100;
-let sum = even(a,b);
-document.write(sum);
+        //     }
+        //     document.write(x[x.length-1])
+        // }
+        // array([2,4,1,6,8,10,12,14,15])
 
+        // --------------------------------------Question 19 print sum of  all even number---------------
+        // function even() {
+        //     let sum = 0;
+        //     for (let i = 1; i <= 10; i++) {
+        //         if (i % 2 == 0) {
+        //             sum = sum + i;
+        //         }
+        //     }
+        //     document.write(sum);
+        // }
+        // even()
     </script>
 </body>
 
